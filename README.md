@@ -15,19 +15,19 @@ Netflix-like Menu System Project
 ## Functions
 ***
 * These are the important functions being used in this program:
-	void addCategory(node_t *current, string name); //This will add a category
-	void printCategories(node_t *start_category); //This will print the categories
-	void addMovie(node_movie_t *movie_node, string movie, Date *date); //This will add a movie into a specific category
-	void printMovies(node_movie_t *start_movie_node); //This will print the movies in the category
-	void searchCategory(string name); //This will allow the user to search for a category
-	void searchMovie(node_t *start_category, string movie_name); //This will allow the user to search for a movie
-	int compareDates(Date *date1, Date *date2); //This will compare dates between each movie
-	void printCategoriesAndMovies(node_t *start_category); //This will print all the categories and movies that the user has entered
-	void removeMovies(node_t *start_category, Date date); //This will remove the movies according to a inputted date by the user
-	int get_count(node_movie_t *start, node_movie_t *last); //This will check the number of movies inputted
-	node_movie_t *get_middle(node_movie_t *start, node_movie_t *last); //This will get the middle of the list of movies
-	node_movie_t *get_last(node_movie_t *start); //This will get the last at the end of the list of movies
-	int searchMovieBinary(node_movie_t *start, string movieName); //This will search the movies in Binary Search form
+	* void addCategory(node_t *current, string name); //This will add a category
+	* void printCategories(node_t *start_category); //This will print the categories
+	* void addMovie(node_movie_t *movie_node, string movie, Date *date); //This will add a movie into a specific category
+	* void printMovies(node_movie_t *start_movie_node); //This will print the movies in the category
+	* void searchCategory(string name); //This will allow the user to search for a category
+	* void searchMovie(node_t *start_category, string movie_name); //This will allow the user to search for a movie
+	* int compareDates(Date *date1, Date *date2); //This will compare dates between each movie
+	* void printCategoriesAndMovies(node_t *start_category); //This will print all the categories and movies that the user has entered
+	* void removeMovies(node_t *start_category, Date date); //This will remove the movies according to a inputted date by the user
+	* int get_count(node_movie_t *start, node_movie_t *last); //This will check the number of movies inputted
+	* node_movie_t *get_middle(node_movie_t *start, node_movie_t *last); //This will get the middle of the list of movies
+	* node_movie_t *get_last(node_movie_t *start); //This will get the last at the end of the list of movies
+	* int searchMovieBinary(node_movie_t *start, string movieName); //This will search the movies in Binary Search form
 
 ## Instructions/Features
 ***
